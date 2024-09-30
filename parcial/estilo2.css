@@ -1,0 +1,93 @@
+/* Reinicio general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del cuerpo */
+body {
+    background: linear-gradient(#1F87C2, #51A3D2, #89C2E1);
+    text-align: center;
+}
+
+/* Sección de encabezado */
+.encabezado {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    z-index: -1;
+}
+
+.encabezado h1 {
+    font-size: 4.2em;
+    margin-top: 30px;
+}
+
+.encabezado h2 {
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/* Sección de deporte */
+.seccion-deporte {
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.seccion-deporte img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.seccion-deporte h3 {
+    margin: 15px 0 10px;
+    font-size: 1.8em;
+}
+
+.seccion-deporte p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.seccion-deporte a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.seccion-deporte a:hover {
+    color: #ddd;
+    border-bottom-color: #ddd;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #243240;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.pie-pagina p {
+    font-size: 0.8em;
+}
